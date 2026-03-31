@@ -11,7 +11,7 @@ const DigitalVault = () => {
       category: "أكاديمي",
       date: "2023/9/3",
       fileSize: "2.4 MB",
-      fileUrl: "/degree.pdf"
+      fileUrl: "./degree.pdf"
     },
     // {
       // id: 2,

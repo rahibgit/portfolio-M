@@ -30,7 +30,7 @@ const Hero = () => {
             
             <div className="flex flex-wrap gap-4">
               <a
-                href="#portfolio"
+                href="#./portfolio"
                 className="bg-forest-green hover:bg-forest-green/90 text-white px-8 py-3 rounded-lg font-medium transition-all shadow-lg hover:shadow-forest-green/30 flex items-center group"
               >
                 <Download className="me-2 h-5 w-5 group-hover:-translate-y-1 transition-transform" />
@@ -59,7 +59,7 @@ const Hero = () => {
               {/* Profile image */}
               <div className="relative w-full h-full glass rounded-3xl overflow-hidden shadow-2xl border-2 border-white/50 z-10 flex items-center justify-center bg-slate-100">
                 <img 
-                  src="profile.png" 
+                  src="./profile.png" 
                   alt="منتصر اليوسفي" 
                   className="w-full h-full object-cover"
                 />
