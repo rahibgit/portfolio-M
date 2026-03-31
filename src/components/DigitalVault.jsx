@@ -71,7 +71,7 @@ const DigitalVault = () => {
               {/* PDF Image Area as Link */}
               <a href={cert.fileUrl} target="_blank" rel="noopener noreferrer" className="block bg-slate-50 p-8 border-b border-slate-100 relative overflow-hidden cursor-pointer">
                 <div className="absolute inset-0 bg-forest-green/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <img src="/pic.png" alt="وثيقة" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                <img src="pic.png" alt="وثيقة" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-white/60 group-hover:bg-white/40 transition-colors duration-300" />
                 <span className="absolute top-3 end-3 bg-white text-xs font-bold px-2 py-1 rounded shadow-sm text-slate-500 border border-slate-200">
                   PDF

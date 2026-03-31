@@ -59,7 +59,7 @@ const Hero = () => {
               {/* Profile image */}
               <div className="relative w-full h-full glass rounded-3xl overflow-hidden shadow-2xl border-2 border-white/50 z-10 flex items-center justify-center bg-slate-100">
                 <img 
-                  src="/profile.png" 
+                  src="profile.png" 
                   alt="منتصر اليوسفي" 
                   className="w-full h-full object-cover"
                 />
